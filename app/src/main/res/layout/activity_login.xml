@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/invierno"
+    tools:context="la.hackspace.reto2login.LoginActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:hint="Nombre"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:hint="Apellido"
+        android:id="@+id/editText2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:hint="Edad"
+        android:id="@+id/editText3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:hint="DNI"
+        android:id="@+id/editText4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Registrar"
+        android:textColor="#ffff"
+        android:background="#26C72E"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arbol"
+        android:id="@+id/imageView" />
+
+
+</LinearLayout>
